@@ -22,11 +22,11 @@ namespace Task8
             {
             if (x > 0)
                 return 1;
-            else if (x < 1)
+            else if (x < 0)
                 return -1;
-            else if (x != 0)
+            else
                 return 0;
-                    return x;
+         
             }
         }
     }
