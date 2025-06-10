@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task13", "Task13\Task13.csproj", "{B0357980-F94D-4289-8564-035790975650}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Тест", "Тест\Тест.csproj", "{BC3CA0DC-EF18-4530-BA08-CAAC16297F2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactGroup", "ContactGroup\ContactGroup.csproj", "{07F76E60-4F0D-4E98-A8D9-F70953F57634}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B0357980-F94D-4289-8564-035790975650}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0357980-F94D-4289-8564-035790975650}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0357980-F94D-4289-8564-035790975650}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0357980-F94D-4289-8564-035790975650}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC3CA0DC-EF18-4530-BA08-CAAC16297F2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC3CA0DC-EF18-4530-BA08-CAAC16297F2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC3CA0DC-EF18-4530-BA08-CAAC16297F2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC3CA0DC-EF18-4530-BA08-CAAC16297F2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07F76E60-4F0D-4E98-A8D9-F70953F57634}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07F76E60-4F0D-4E98-A8D9-F70953F57634}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07F76E60-4F0D-4E98-A8D9-F70953F57634}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07F76E60-4F0D-4E98-A8D9-F70953F57634}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1350D033-91F7-4F22-A935-D585EFEB1507}
+	EndGlobalSection
+EndGlobal
