@@ -76,7 +76,7 @@ namespace VectorStruct.UnitTests
             Assert.That(scalar * v, Is.EqualTo(result));
         }
 
-        [TestCase(1, 2, 3, 4, 5, 6, 32)] // 1*4 + 2*5 + 3*6 = 4 + 10 + 18 = 32
+        [TestCase(1, 2, 3, 4, 5, 6, 32)] 
         public void DotProductTest(double x1, double y1, double z1,
                                  double x2, double y2, double z2,
                                  double expected)
@@ -87,7 +87,7 @@ namespace VectorStruct.UnitTests
             Assert.That(v1 * v2, Is.EqualTo(expected).Within(1e-13));
         }
 
-        [TestCase(1, 0, 0, 0, 1, 0, 0, 0, 1)] // i x j = k
+        [TestCase(1, 0, 0, 0, 1, 0, 0, 0, 1)] 
         public void CrossProductTest(double x1, double y1, double z1,
                                    double x2, double y2, double z2,
                                    double xr, double yr, double zr)
